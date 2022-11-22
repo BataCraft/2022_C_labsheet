@@ -8,7 +8,9 @@ int main()
     printf("Press 2 for rectangel value\n");
     printf("Press 3 for circle value\n");
     printf("Press 4 for Squre value\n");
-    all = length, breadth, hight, base;
+
+    printf("Enter your choice");
+    scanf("%d", &all);
         switch (all)
         {
         case 1/* constant-expression */:
@@ -17,7 +19,7 @@ int main()
          printf("Enter base \n");
         scanf("%d",&base);
         at=hight*base;
-        printf("The area of triangel at is:", at);
+        printf("The area of triangel at is%d:", at);
            /* code */
             break;
             {
@@ -29,19 +31,19 @@ int main()
          printf("Enter breadth \n");
         scanf("%d",&breadth);
            ar=length*breadth;
-         printf("The area of retriangel ar is:", ar);
+         printf("The area of retriangel ar is:%d", ar);
             break;
             }
             {
             case 3/* constant-expression */:
            ac=(float) (pie*radius*radius);
-         printf("The area of circle ac is:", ac); /* code */
+         printf("The area of circle ac is%d:", ac); /* code */
             break;
             }
             {
             case 4/* constant-expression */:
            as= area*area;
-         printf("The area of squre as:", as);
+         printf("The area of squre as%d:", as);
             break;
             }
         
